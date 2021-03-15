@@ -1,0 +1,144 @@
+/* Styles for Maluzeando.com */
+
+@font-face {
+    font-family: "LibreBaskerville";
+    src: url("/static/LibreBaskerville-Regular.ttf") format("truetype");
+}
+
+body {
+    font-family: "LibreBaskerville", serif;
+    line-height: 1.5em;
+    font-size: 18px;
+    background-color:  #fdf2fc; /* later a tiling background image*/
+    background-image: url("/images/background_sprite.png");
+    margin: 0;
+}
+
+a {
+    color: #3EC6D5;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+header {
+    text-align: center;
+    font-size: 1.3em;
+}
+
+header img#logo {
+    width: 500px;
+}
+
+header h1, header h2 {
+    line-height: 1.5em;
+}
+
+nav.navbar ul {
+    padding: 0;
+}
+
+nav.navbar ul li {
+    display: inline;
+    padding: 10px;
+    margin: 10px 5px;
+}
+
+nav.navbar ul li a {
+    color:#008FD5;
+}
+
+nav.navbar ul li img {
+    width: 50px;
+}
+
+/* generic class to be applied to elements in text like img or blockquote */
+.rightfloat {
+    display: block;
+    float: right;
+    margin: 7px;
+}
+
+.rightfloat:after {
+    display: block;
+    content: ".";
+    height: 0;
+    visibility: hidden;
+    clear: both;
+}
+
+section#main {
+    margin: 0 3em;
+}
+
+section#main h1, section#main h2, section#main h3 {
+    line-height: 1.5em;
+}
+
+section#main img {
+    display: block;
+    margin: auto;
+}
+
+/* large screens */
+@media screen and (min-width: 950px) {
+    section#main {
+        width: 920px;
+        margin: auto;
+    }
+}
+
+/* mobile screens */
+@media screen and (max-width: 500px) {
+    section#main {
+        margin: 0 1em;
+    }
+
+    header img#logo {
+        max-width: 95%;
+    }
+
+    .rightfloat {
+        float: none;
+        clear: both;
+    }
+
+    section#main img {
+        max-width: 95%;
+    }
+
+}
+
+section.banner {
+    text-align: center;
+    /* background-image: url('/images/banner.png'); */
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 600px;
+    position: relative;
+}
+
+/* Text overlaid on top of the banner! */
+section.banner p {
+    font-size: 2em;
+    padding: 1em;
+    background: rgba(255,255,255,0.8);
+    line-height: 1.7em;
+    margin: 0 auto;
+    /* hack to center vertically */
+    position: absolute;
+    top: 45%;
+    transform: translateY(-50%);
+}
+
+footer {
+    text-align: center;
+    padding: 3em 0 6.5em 0;
+    margin: 0;
+    background-image: url('/images/footer.png');
+    background-position: bottom center;
+    background-repeat: no-repeat;
+}
