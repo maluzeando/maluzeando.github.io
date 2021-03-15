@@ -90,27 +90,6 @@ section#main img {
     }
 }
 
-/* mobile screens */
-@media screen and (max-width: 500px) {
-    section#main {
-        margin: 0 1em;
-    }
-
-    header img#logo {
-        max-width: 95%;
-    }
-
-    .rightfloat {
-        float: none;
-        clear: both;
-    }
-
-    section#main img {
-        max-width: 95%;
-    }
-
-}
-
 section.banner {
     text-align: center;
     /* background-image: url('/images/banner.png'); */
@@ -132,6 +111,30 @@ section.banner p {
     position: absolute;
     top: 45%;
     transform: translateY(-50%);
+}
+
+/* mobile screens */
+@media screen and (max-width: 500px) {
+    section#main {
+        margin: 0 1em;
+    }
+
+    header img#logo {
+        max-width: 95%;
+    }
+
+    .rightfloat {
+        float: none;
+        clear: both;
+    }
+
+    section#main img {
+        max-width: 95%;
+    }
+
+    section.banner {
+        height: auto;
+    }
 }
 
 footer {
