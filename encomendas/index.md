@@ -46,6 +46,6 @@ Espero maluzear com muita dedicação para Você!!!
 
 Abraços.
 
-Malu Araujo
+Malu Araújo
 
 ![Gratidão](/images/gratidao.png)
