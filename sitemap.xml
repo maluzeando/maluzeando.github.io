@@ -2,22 +2,32 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
         <loc>https://www.maluzeando.com</loc>
-        <lastmod>2021-03-15</lastmod>
-        <changefreq>monthly</changefreq>
-    </url>
-    <url>
-        <loc>https://www.maluzeando.com/sobre</loc>
-        <lastmod>2021-03-15</lastmod>
+        <lastmod>2022-08-09</lastmod>
         <changefreq>monthly</changefreq>
     </url>
     <url>
         <loc>https://www.maluzeando.com/encomendas</loc>
-        <lastmod>2021-03-15</lastmod>
+        <lastmod>2022-08-09</lastmod>
+        <changefreq>monthly</changefreq>
+    </url>
+    <url>
+        <loc>https://www.maluzeando.com/downloads</loc>
+        <lastmod>2022-08-09</lastmod>
+        <changefreq>monthly</changefreq>
+    </url>
+    <url>
+        <loc>https://www.maluzeando.com/galeria</loc>
+        <lastmod>2022-08-09</lastmod>
         <changefreq>monthly</changefreq>
     </url>
     <url>
         <loc>https://www.maluzeando.com/contato</loc>
-        <lastmod>2021-03-15</lastmod>
+        <lastmod>2022-08-09</lastmod>
+        <changefreq>monthly</changefreq>
+    </url>
+    <url>
+        <loc>https://www.maluzeando.com/sobre</loc>
+        <lastmod>2022-08-09</lastmod>
         <changefreq>monthly</changefreq>
     </url>
 </urlset>
