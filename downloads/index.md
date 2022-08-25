@@ -2,6 +2,10 @@
 
 Aqui estão alguns dos trabalhos que disponibilizo gratuitamente para download. Aproveite!
 
+## Desenhos do Pequeno Príncipe
+
+ - [Desenho tematizado ao Pequeno Príncipe em A4](/static/blob/principe_para_colorir.pdf) para colorir.
+
 ## Dia dos pais
 
  - [Meu Herói (Folha para traçar e colorir A4)](/static/blob/meu-heroi-a4.pdf): uma atividade para colorir tematizada sobre o dia dos pais. Quem é o seu maior herói de todos os dias? Colora-o e o dê vida!
