@@ -2,6 +2,11 @@
 
 Aqui estão alguns dos trabalhos que disponibilizo gratuitamente para download. Aproveite!
 
+## Desenhos do Stitch
+
+ - [Desenho do Stitch para traçar](/static/blob/stitch_1.pdf)
+ - [Desenho do Stitch com lettering para traçar](/static/blob/stitch_2.pdf)
+
 ## Desenhos do Pequeno Príncipe
 
  - [Desenho tematizado ao Pequeno Príncipe em A4](/static/blob/principe_para_colorir.pdf) para colorir.
